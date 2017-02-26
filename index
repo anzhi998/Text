@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task</title>
+</head>
+<body>
+	<h1>基础任务:</h1>
+<ul>
+  <li><a href="http://www.baidu.com/">不要点我</a></li>
+  <li><a href="http://cn.bing.com/">这是个没用的导航</a></li>
+</ul>
+<h2>文章一级标题</h2>
+<h3>文章二级标题</h3>
+<p>文章作者：XXX 文章发表时间：xxx</p>
+<p>段落里完全不知道写啥好<br>所以就换行吧！</p>
+<p>点那个链接可以去百度<a href="http://www.baidu.com/">www.baidu.com</a></p>
+<p><a href="http://www.baidu.com/" target="_blank">这将打开一个传送门</a></p>
+<p>
+插入图像<br>
+<img src="img/naozi.png"  width="120" height="120"><br>
+
+<img src="img/naozi.png"  width="120" height="120"></p>
+<b>我怎么变粗了？</b>
+<ur>
+<li>列表项目1</li>
+<li>列表项目2</li>
+</ur>
+<p>想喝点什么吗？</p>
+<ol>
+  <li>茶</li>
+  <li>奶</li>
+  <li>奶茶</li>
+</ol>
+<h4>下面是一个表格</h4>
+<table border="1">
+<tr>
+  <td>100</td>
+  <td>200</td>
+  <td>300</td>
+</tr>
+<tr>
+  <td>400</td>
+  <td>500</td>
+  <td>600</td>
+</tr>
+</table>
+这是一个文本输入框<input type="text" name="" >
+
+<form action="">性别：
+<input type="radio" name="sex" value="male">男
+<input type="radio" name="sex" value="female">女
+</form>
+<form action="">城市：
+<select name="城市">
+<option value="xxx">XXX</option>
+<option value="xxx">XXX</option>
+<option value="xxx">XXX</option>
+<option value="xxx">XXX</option>
+</select>
+</form>
+<form action="">爱好：
+<input type="checkbox" name="运动" >运动
+<input type="checkbox" name="科学" >科学
+</form>
+<form method="POST" action="">下面有一个多行输入框
+<div>
+<textarea name="MSG" cols=40 rows=4>
+</textarea>
+</div>
+</form>
+</body>
+</html>

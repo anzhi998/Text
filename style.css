@@ -1,0 +1,453 @@
+*{
+
+			margin: 0;
+
+			padding: 0;
+
+		}
+
+		body{
+
+			background-color: #eee;
+
+		}
+
+		.side-left{
+
+			width: 3%;
+
+			height: 100%;
+
+			background-color: #101010;
+
+			position: fixed;
+
+			left: 0;top: 0;
+
+		}
+
+		.side-right{
+
+			width: 3%;
+
+			height: 100%;
+
+			background-color: #101010;
+
+			position: fixed;
+
+			top: 0;right: 0;
+
+		}
+
+		.header{
+
+			background-color: #383838;
+
+			width: 94.1%;
+
+			height: 62px;
+
+			margin: 0 0 0 40px;
+
+		}
+
+		.nav-img{
+
+			width:135px;
+
+			height: 62px;
+
+			margin: 0px 35px;	
+
+		}
+
+		.nav {
+
+			margin:-42px 7px;
+
+		}
+
+		.nav li{
+
+			margin: 0 10px;
+
+			float: right;
+
+			list-style: disc;
+
+		}
+
+		.nav a{
+
+			text-decoration: none;
+
+			color: #eee;
+
+			font-size: 12px;
+
+		}
+
+		.nav a:hover{
+
+			color: #fff;
+
+		}
+
+		#gray-a{
+
+			color:#bbb;
+
+		}
+
+		.page{
+
+			background-color: #fff;
+
+			width: 87%;
+
+			margin: 22px 64px; 
+
+			padding: 20px;
+
+			box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+
+			-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+
+			-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+
+		}
+
+		h2{
+
+			margin: 19px 11px;
+
+		}
+
+		h4{
+
+			color: #585858;
+
+			margin: 10px 11px;
+
+		}
+
+		span{
+
+			color: #494949;
+
+			font-size:12px;
+
+			margin:0px 0px 0px 10px;
+
+		}
+
+		p{
+
+			text-indent: 33px;
+
+			font-size: 16px;
+
+			padding: 15px 10px;
+
+			line-height: 2em;
+
+			font-family: Arial,Verdana,Sans-serif;
+
+		}
+
+		img{
+
+			margin: 0px 14px;
+
+			width: 280px;
+
+			height: 280px;
+
+		}
+
+		li{
+
+			list-style: none;
+
+
+
+		}
+
+		dl{
+
+			border: 1px solid #aaa;
+
+			margin: 15px 35px;
+
+			width: 130px;
+
+			height: 130px;
+
+			text-align: center;
+
+			font-size: 12px;
+
+			padding: 10px 3px;
+
+		}
+
+		dl img{
+
+			width: 100px;
+
+			height: 100px;
+
+			margin: 5px;
+
+		}
+
+		ol{
+
+			margin: 13px 52px;
+
+			font-size: 14px;
+
+		}
+
+		ol li{
+
+			list-style-type: decimal; 
+
+		}
+
+		table{
+
+			border-collapse: collapse;
+
+			font-size: 12px;
+
+			font-weight: 600;
+
+			width: 100%;
+
+			height: 
+
+			line-height: 2em;
+
+			border:1px solid #ccc;
+
+
+
+		}
+
+		tr:first-child{
+
+			background-color: #383838;
+
+			color: #fff;
+
+			overflow: hidden;
+
+		}
+
+		td{
+
+			padding: 4px;
+
+		}
+
+		#table-tr-last{
+
+			background-color: #ccc;
+
+		}
+
+		#shugang{
+
+			border:2px solid #ccc;
+
+			display: inline-block;
+
+			width: 0px;
+
+			height: 38px;
+
+			margin: 5px;
+
+		}
+
+		#tt{
+
+			color: #000;
+
+			display: inline;
+
+			font-weight: 600;
+
+			height: 200px;
+
+			padding: 3px;
+
+			position: relative;
+
+			top: -19px;
+
+		}
+
+		.uu{
+
+			color: #aaa;
+
+			font-size: 12px;
+
+			margin: -29px 328px -17px;
+
+		}
+
+		input{
+
+			font-size: 16px;
+
+			margin: 5px;
+
+			display: block;
+
+		}
+
+		.page_1{
+
+			background-color: #fff;
+
+			width: 87%;
+
+			margin: 22px 64px; 
+
+			padding: 20px;
+
+			box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+
+			-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+
+			-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+
+		}
+
+		.vv{
+
+			margin: 15px 278px;
+
+			font-size: 12px;
+
+			font-weight: 600;
+
+		}
+
+		.vv input{
+
+			display: inline;
+
+			width: 130px;
+
+			font-size: 12px;
+
+			border:1px solid #bbb;
+
+			padding: 3px;
+
+		}
+
+		#vv_1{
+
+			margin: 17px 302px -10px;
+
+		}
+
+		#vv_1 input{
+
+			font-size: 16px;
+
+		}
+
+		#vv_2{
+
+			margin: 15px 278px;
+
+		}
+
+		#vv_2 input{
+
+			font-size: 16px;
+
+		}
+
+		.ww{
+
+			display: inline;
+
+		}
+
+		.xx{
+
+			margin: 14px 337px;
+
+			font-size: 12px;
+
+			font-weight: 600;
+
+		}
+
+		.yy{
+
+			font-size: 12px;
+
+			font-weight: 600;
+
+			padding: 0 0 0 319px;
+
+
+
+		}
+
+		textarea{
+
+			border:2px solid #ccc;
+
+			position: relative;
+
+			left: 53px;
+
+		}
+
+		#zz{
+
+			position:relative;
+
+			bottom: -17px;
+
+		}
+
+		.button{
+
+			width: 100%;
+
+			text-align: center;
+
+			color: #fff;
+
+			background-color: #3355d0;
+
+			padding: 10px;
+
+			border-radius: 17px;
+
+		}
+
+		.footer{
+
+			background-color: #000;
+
+			color: #fff;
+
+			text-align: center;
+
+			padding: 30px ;
+
+			font-size: 10px;
+
+		}
